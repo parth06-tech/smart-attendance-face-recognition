@@ -20,3 +20,6 @@ env/
 Thumbs.db
 .vscode/
 .idea/
+# Face images - keep private
+known_faces/*
+!known_faces/.gitkeep
