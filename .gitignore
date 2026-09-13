@@ -1,0 +1,22 @@
+# Registered face photos are personal biometric data — don't commit real ones.
+# Keep the folder itself (via known_faces/.gitkeep) so register.py has somewhere to save to.
+known_faces/*
+!known_faces/.gitkeep
+
+# Generated attendance log — this is runtime output, not source
+attendance.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
